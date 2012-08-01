@@ -1,0 +1,3 @@
+*Not a project, simply the source tree
+
+Example usage: accumulo localhost:2181 root secret test
