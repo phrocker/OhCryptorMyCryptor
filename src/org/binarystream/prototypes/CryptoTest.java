@@ -33,8 +33,12 @@ import org.junit.Test;
 
 public class CryptoTest {
 
+	
+	// arguments should be 
+	// instance zookeeprs username password table
 	public static void main(String [] args) throws NoSuchAlgorithmException, AccumuloException, AccumuloSecurityException, TableNotFoundException, TableExistsException, InvalidKeyException, NoSuchPaddingException
 	{
+	
 		SecurityProfile profile = SecurityProfile.generate();
 		
 	
